@@ -6,6 +6,10 @@
 .idea/**/tasks.xml
 .idea/dictionaries
 
+# IntelliJ IDEA
+.idea/vcs.xml
+.idea/misc.xml
+
 # Sensitive or high-churn files:
 .idea/**/dataSources/
 .idea/**/dataSources.ids

@@ -20,8 +20,8 @@ public class ConsumerPortTest {
 
     @Rule
     @Autowired
-    public PactProviderRuleMk2 rule = new PactProviderRuleMk2("Foo_Provider", "localhost", 8080, this);
-    // public PactProviderRuleMk2 rule;
+    // public PactProviderRuleMk2 rule = new PactProviderRuleMk2("Foo_Provider", "localhost", 8080, this);
+    public PactProviderRuleMk2 rule;
 
     @Pact(provider="Foo_Provider", consumer="Foo_Consumer")
     public RequestResponsePact createFragment(PactDslWithProvider builder) {
