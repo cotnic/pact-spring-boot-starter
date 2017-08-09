@@ -1,0 +1,6 @@
+com\kumuluz\pact\PactProperties.class
+com\kumuluz\pact\PactProperties$Consumer.class
+com\kumuluz\pact\PactAutoConfiguration.class
+com\kumuluz\pact\PactProperties$Provider.class
+com\kumuluz\pact\PactProperties$Provider$Broker.class
+META-INF\spring-configuration-metadata.json

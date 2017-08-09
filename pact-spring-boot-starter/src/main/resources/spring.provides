@@ -1,0 +1,1 @@
+provides: spring-boot,spring-boot-test,junit,pact-jvm-consumer-junit_2.11,pact-jvm-provider-junit_2.11,pact-jvm-provider-maven_2.11

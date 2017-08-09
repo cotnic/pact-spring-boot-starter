@@ -1,0 +1,87 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.kumuluz.pact.PactProperties",
+      "name": "test.pact",
+      "type": "com.kumuluz.pact.PactProperties"
+    },
+    {
+      "sourceType": "com.kumuluz.pact.PactProperties",
+      "name": "test.pact.consumer",
+      "sourceMethod": "getConsumer()",
+      "type": "com.kumuluz.pact.PactProperties$Consumer"
+    },
+    {
+      "sourceType": "com.kumuluz.pact.PactProperties",
+      "name": "test.pact.provider",
+      "sourceMethod": "getProvider()",
+      "type": "com.kumuluz.pact.PactProperties$Provider"
+    },
+    {
+      "sourceType": "com.kumuluz.pact.PactProperties$Provider",
+      "name": "test.pact.provider.broker",
+      "sourceMethod": "getBroker()",
+      "type": "com.kumuluz.pact.PactProperties$Provider$Broker"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.kumuluz.pact.PactProperties$Consumer",
+      "name": "test.pact.consumer.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.kumuluz.pact.PactProperties",
+      "defaultValue": false,
+      "name": "test.pact.debug",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.kumuluz.pact.PactProperties$Provider$Broker",
+      "name": "test.pact.provider.broker.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.kumuluz.pact.PactProperties$Provider$Broker",
+      "name": "test.pact.provider.broker.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.kumuluz.pact.PactProperties$Provider$Broker",
+      "name": "test.pact.provider.broker.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.kumuluz.pact.PactProperties$Provider",
+      "name": "test.pact.provider.directory",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.kumuluz.pact.PactProperties$Provider",
+      "name": "test.pact.provider.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.kumuluz.pact.PactProperties$Provider",
+      "name": "test.pact.provider.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.kumuluz.pact.PactProperties$Provider",
+      "name": "test.pact.provider.path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.kumuluz.pact.PactProperties$Provider",
+      "defaultValue": 0,
+      "name": "test.pact.provider.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.kumuluz.pact.PactProperties$Provider",
+      "name": "test.pact.provider.protocol",
+      "type": "java.lang.String"
+    }
+  ]
+}
