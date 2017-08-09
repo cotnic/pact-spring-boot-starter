@@ -5,17 +5,25 @@ import au.com.dius.pact.consumer.PactVerification;
 import au.com.dius.pact.consumer.Pact;
 import au.com.dius.pact.consumer.dsl.PactDslWithProvider;
 import au.com.dius.pact.model.RequestResponsePact;
+import io.pivotal.microservices.pact.consumer.Application;
 import io.pivotal.microservices.pact.consumer.Foo;
 import io.pivotal.microservices.pact.consumer.ConsumerPort;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.junit.Rule;
 import org.junit.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.test.context.web.WebAppConfiguration;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 import java.util.Arrays;
 
+@RunWith(SpringJUnit4ClassRunner.class)
+@SpringBootTest(classes=Application.class)
+@WebAppConfiguration
 public class ConsumerPortTest {
 
     @Rule
