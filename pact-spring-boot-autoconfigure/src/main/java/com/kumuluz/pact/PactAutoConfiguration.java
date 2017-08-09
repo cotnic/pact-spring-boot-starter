@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ConditionalOnBean({PactProviderRuleMk2.class})
+@ConditionalOnClass({PactProviderRuleMk2.class})
 @EnableConfigurationProperties(PactProperties.class)
 public class PactAutoConfiguration {
 
